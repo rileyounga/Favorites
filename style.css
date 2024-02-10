@@ -1,0 +1,29 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+#showsTable th, #showsTable td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif; /* Change this to your preferred font */
+}
+
+#showsTable th:first-child, #showsTable td:first-child {
+    width: 210px; /* Adjust this value as needed */
+}
+
+#showsTable th, #showsTable td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#showsTable th {
+    background-color: #1373da;
+    color: white;
+}
